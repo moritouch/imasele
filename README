@@ -1,0 +1,8 @@
+【今セレ】
+・優柔不断向けに勝手に物事を決めてしまうサービス
+
+動くまでに必要な事
+
+Config/Core.php 335L付近
+335 Configure::write('recruit_web_api', ''); # APIキーを設定
+
